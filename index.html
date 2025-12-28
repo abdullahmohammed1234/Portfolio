@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="logo">Abdalla Elboraei</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <section id="home" class="home reveal">
+  <div class="home-wrapper">
+
+    <div class="home-content">
+      <h1>Hi, I'm <span>Abdalla</span></h1>
+      <h2>1st Year Software Systems Student @SFU</h2>
+      <p>
+        I build clean, efficient, and user-focused web applications using modern
+        technologies and a strong problem-solving mindset.
+      </p>
+      <div class="home-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="home-image">
+      <img src="assets/tech.svg" alt="Developer working on laptop illustration">
+    </div>
+
+  </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="about reveal">
+  <div class="about-container">
+    
+    <h2 class="section-title">About Me</h2>
+
+    <!-- Profile Image -->
+    <div class="about-image">
+      <img src="assets/me.jpg" alt="Profile picture of Abdalla Elboraei" />
+    </div>
+
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I am a Software Systems student with a strong interest in software development,
+          web technologies, and problem-solving. I enjoy building clean, efficient, and
+          scalable applications while continuously improving my technical skills.
+        </p>
+
+        <p>
+          Through academic projects, hackathons, and volunteer work, I have developed
+          experience working in collaborative environments, applying critical thinking,
+          and delivering practical solutions using modern programming tools.
+        </p>
+
+        <p>
+          I am motivated by learning new technologies, contributing to meaningful projects,
+          and growing as a developer while making a positive impact through technology.
+        </p>
+
+        <a href="#projects" class="btn primary">View My Projects</a>
+        <a href="assets/Abdalla_Elboraei_Resume.pdf" download class="resume-btn">Download Resume</a>
+
+      </div>
+
+      <div class="about-skills">
+        <h3>Technical Skills</h3>
+
+        <ul>
+          <li><strong>Programming Languages:</strong> JavaScript, Python, C++, Dart</li>
+          <li><strong>Web Technologies:</strong> HTML5, CSS3, Responsive Web Design</li>
+          <li><strong>Frameworks & Libraries:</strong> Node.js, Express</li>
+          <li><strong>Backend & Logic:</strong> Backend development, API logic, debugging</li>
+          <li><strong>Version Control:</strong> Git, GitHub</li>
+          <li><strong>Cloud & Platforms:</strong> Microsoft Azure (AZ-900 Certified)</li>
+          <li><strong>Development Practices:</strong> Agile mindset, teamwork, problem solving</li>
+          <li><strong>UI/UX & Accessibility:</strong> User-centered design, accessibility principles</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+  </section>
+
+  
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="projects reveal">
+  <div class="projects-container">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>Track2Give – Food Waste Tracker</h3>
+        <p>
+          A web application developed during StormHacks 2025 that helps track food waste
+          and connect donations to organizations, aligning with UN Sustainable Development
+          Goals 2, 12, and 13.
+        </p>
+        <ul class="project-points">
+          <li>Built and implemented the donation section logic</li>
+          <li>Debugged application issues and improved reliability</li>
+          <li>Collaborated in a fast-paced hackathon environment</li>
+        </ul>
+        <div class="project-tech">
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Team Collaboration</span>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>UI/UX Website Designs (WCDAT)</h3>
+        <p>
+          Designed and developed user interface layouts for company websites with a focus
+          on usability, accessibility, and visual consistency.
+        </p>
+        <ul class="project-points">
+          <li>Applied user-centered design principles</li>
+          <li>Improved accessibility and overall user experience</li>
+          <li>Translated requirements into functional UI designs</li>
+        </ul>
+        <div class="project-tech">
+          <span>UI/UX Design</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Accessibility</span>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          A responsive personal portfolio website built to showcase projects, technical
+          skills, volunteer experience, and achievements in a professional format.
+        </p>
+        <ul class="project-points">
+          <li>Designed and implemented a modern responsive layout</li>
+          <li>Built using clean, reusable HTML, CSS, and JavaScript</li>
+          <li>Focused on clarity, accessibility, and recruiter usability</li>
+        </ul>
+        <div class="project-tech">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-grid">
+
+    <!-- Frontend -->
+    <div class="skill-card">
+      <img src="https://img.icons8.com/color/512/ejs.png" alt="Frontend">
+      <h3>Frontend Development</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>EJS</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Design</li>
+      </ul>
+    </div>
+
+    <!-- Backend -->
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Backend">
+      <h3>Backend & APIs</h3>
+      <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>RESTful APIs</li>
+        <li>Authentication (JWT)</li>
+      </ul>
+    </div>
+
+    <!-- Database -->
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="Database">
+      <h3>Databases & Cloud</h3>
+      <ul>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>Firebase</li>
+        <li>Cloud Deployment</li>
+      </ul>
+    </div>
+
+    <!-- Tools -->
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Tools">
+      <h3>Tools & DevOps</h3>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>Docker (Basics)</li>
+        <li>Postman</li>
+        <li>VS Code</li>
+      </ul>
+    </div>
+
+  </div>
+  </section>
+
+  <section id="courses" class="courses-section">
+  <h2>Courses & Learning</h2>
+
+  <div class="courses-list">
+    <div class="course-item">CMPT 130: Introduction to Computer Programming I</div>
+    <div class="course-item">Certification Preparation – Financial Associate (Oracle netSuite)</div>
+    <div class="course-item">PHP Laravel: Build Travel Management System</div>
+    <div class="course-item">Build your Personal Portfolio Website</div>
+    <div class="course-item">AI in Agile Delivery</div>
+  </div>
+  </section>
+
+
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="contact reveal">
+  <div class="contact-container">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-content">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>
+          I’m open to opportunities, collaborations, and professional conversations.
+          You can reach me using the information below.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:abdullahelboraei@gmail.com">
+              abdullahelboraei@gmail.com
+            </a>
+          </li>
+
+          <li>
+            <strong>WhatsApp / Phone:</strong>
+            <a href="https://wa.me/17786971018" target="_blank">
+              +1 (778) 697-1018
+            </a>
+          </li>
+
+          <li>
+            <strong>Location:</strong>
+            Surrey, BC, Canada
+          </li>
+
+          <li>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/abdalla-mohamed-mohamed-elboraei-95bb1b369/" target="_blank">
+              linkedin.com/in/abdalla-mohamed-mohamed-elboraei-95bb1b369
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <h3>Send a Message</h3>
+
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+
+    </div>
+  </div>
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
