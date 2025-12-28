@@ -3,316 +3,182 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>Abdalla Elboraei | Systems Engineer</title>
+  
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;500;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ===== NAVBAR ===== -->
-  <header class="navbar">
-    <div class="logo">Abdalla Elboraei</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="menu-toggle" id="menuToggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </header>
-
-  <section id="home" class="home reveal">
-  <div class="home-wrapper">
-
-    <div class="home-content">
-      <h1>Hi, I'm <span>Abdalla</span></h1>
-      <h2>1st Year Software Systems Student @SFU</h2>
-      <p>
-        I build clean, efficient, and user-focused web applications using modern
-        technologies and a strong problem-solving mindset.
-      </p>
-      <div class="home-buttons">
-        <a href="#projects" class="btn primary">View Projects</a>
-        <a href="#contact" class="btn secondary">Contact Me</a>
-      </div>
-    </div>
-
-    <div class="home-image">
-      <img src="assets/tech.svg" alt="Developer working on laptop illustration">
-    </div>
-
+  <!-- Dynamic Background -->
+  <div class="aurora-container">
+    <div class="aurora aurora-1"></div>
+    <div class="aurora aurora-2"></div>
   </div>
-  </section>
 
-  <!-- ===== ABOUT SECTION ===== -->
-  <section id="about" class="about reveal">
-  <div class="about-container">
-    
-    <h2 class="section-title">About Me</h2>
-
-    <!-- Profile Image -->
-    <div class="about-image">
-      <img src="assets/me.jpg" alt="Profile picture of Abdalla Elboraei" />
-    </div>
-
-    <div class="about-content">
-      <div class="about-text">
-        <p>
-          I am a Software Systems student with a strong interest in software development,
-          web technologies, and problem-solving. I enjoy building clean, efficient, and
-          scalable applications while continuously improving my technical skills.
-        </p>
-
-        <p>
-          Through academic projects, hackathons, and volunteer work, I have developed
-          experience working in collaborative environments, applying critical thinking,
-          and delivering practical solutions using modern programming tools.
-        </p>
-
-        <p>
-          I am motivated by learning new technologies, contributing to meaningful projects,
-          and growing as a developer while making a positive impact through technology.
-        </p>
-
-        <div class="about-buttons">
-          <a href="#projects" class="btn primary">View My Projects</a>
-          <a href="assets/Abdalla_Elboraei_Resume.pdf" download class="btn primary">Download Resume</a>
-        </div>
-
+  <nav class="floating-nav">
+    <div class="nav-inner">
+      <div class="nav-logo">AE</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#skills">Stack</a>
       </div>
-
-      <div class="about-skills">
-        <h3>Technical Skills</h3>
-
-        <ul>
-          <li><strong>Programming Languages:</strong> JavaScript, Python, C++, Dart</li>
-          <li><strong>Web Technologies:</strong> HTML5, CSS3, Responsive Web Design</li>
-          <li><strong>Frameworks & Libraries:</strong> Node.js, Express</li>
-          <li><strong>Backend & Logic:</strong> Backend development, API logic, debugging</li>
-          <li><strong>Version Control:</strong> Git, GitHub</li>
-          <li><strong>Cloud & Platforms:</strong> Microsoft Azure (AZ-900 Certified)</li>
-          <li><strong>Development Practices:</strong> Agile mindset, teamwork, problem solving</li>
-          <li><strong>UI/UX & Accessibility:</strong> User-centered design, accessibility principles</li>
-        </ul>
-      </div>
-
+      <a href="#contact" class="nav-contact">Hire Me</a>
     </div>
+  </nav>
 
-  </div>
-  </section>
-
-  
-  <!-- ===== PROJECTS SECTION ===== -->
-  <section id="projects" class="projects reveal">
-  <div class="projects-container">
-
-    <h2 class="section-title">Projects</h2>
-
-    <div class="projects-grid">
-
-      <!-- Project 1 -->
-      <div class="project-card">
-        <h3>Track2Give – Food Waste Tracker</h3>
-        <p>
-          A web application developed during StormHacks 2025 that helps track food waste
-          and connect donations to organizations, aligning with UN Sustainable Development
-          Goals 2, 12, and 13.
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container reveal">
+        <div class="hero-tag">Available for 2026 Internships</div>
+        <h1 class="hero-title">Engineering logic into <span class="gradient-text">Digital Experiences.</span></h1>
+        <p class="hero-description">
+          Software Systems student at SFU. I specialize in building robust backends and pixel-perfect frontends.
         </p>
-        <ul class="project-points">
-          <li>Built and implemented the donation section logic</li>
-          <li>Debugged application issues and improved reliability</li>
-          <li>Collaborated in a fast-paced hackathon environment</li>
-        </ul>
-        <div class="project-tech">
-          <span>JavaScript</span>
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>Team Collaboration</span>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-glow">Explore Work</a>
+          <a href="assets/Abdalla_Elboraei_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-outline">
+            Resume <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem; margin-left: 6px;"></i>
+          </a>
         </div>
       </div>
+    </section>
 
-      <!-- Project 2 -->
-      <div class="project-card">
-        <h3>UI/UX Website Designs (WCDAT)</h3>
-        <p>
-          Designed and developed user interface layouts for company websites with a focus
-          on usability, accessibility, and visual consistency.
-        </p>
-        <ul class="project-points">
-          <li>Applied user-centered design principles</li>
-          <li>Improved accessibility and overall user experience</li>
-          <li>Translated requirements into functional UI designs</li>
-        </ul>
-        <div class="project-tech">
-          <span>UI/UX Design</span>
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>Accessibility</span>
+    <!-- ABOUT SECTION (Photo on Left) -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left Column: Photo -->
+          <div class="about-left reveal">
+            <div class="image-frame">
+              <img src="assets/me.jpg" alt="Abdalla Elboraei" class="profile-img">
+              <div class="image-accent"></div>
+            </div>
+          </div>
+          
+          <!-- Right Column: Content -->
+          <div class="about-right reveal">
+            <span class="section-tag">About Me</span>
+            <h2 class="about-heading">Blending technical rigor with <span>creative execution.</span></h2>
+            <p>I am a Software Systems student at SFU with a focus on building systems that are as efficient as they are accessible.</p>
+            <p>From hackathons like StormHacks to academic projects, I treat every line of code as an opportunity to optimize performance and improve the human experience.</p>
+            
+            <div class="about-info-grid">
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <label>Location</label>
+                  <p>Surrey, BC</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <label>Education</label>
+                  <p>SFU Software Systems</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <!-- Project 3 -->
-      <div class="project-card">
-        <h3>Personal Portfolio Website</h3>
-        <p>
-          A responsive personal portfolio website built to showcase projects, technical
-          skills, volunteer experience, and achievements in a professional format.
-        </p>
-        <ul class="project-points">
-          <li>Designed and implemented a modern responsive layout</li>
-          <li>Built using clean, reusable HTML, CSS, and JavaScript</li>
-          <li>Focused on clarity, accessibility, and recruiter usability</li>
-        </ul>
-        <div class="project-tech">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="project-section">
+      <div class="container">
+        <h2 class="section-heading reveal">Selected Work</h2>
+        
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000" alt="Track2Give">
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Hackathon</span>
+            <h3>Track2Give</h3>
+            <p>Mission-critical food waste tracker connecting donors with organizations. Built with a focus on real-time logic.</p>
+            <div class="project-tags">
+              <span>Node.js</span><span>Express</span><span>API</span>
+            </div>
+            <a href="https://track2give.tech" target="_blank" class="view-project">View Site <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card reverse">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=1000" alt="UI/UX Design">
+          </div>
+          <div class="project-info">
+            <span class="project-cat">UI / Accessibility</span>
+            <h3>WCDAT Core</h3>
+            <p>Redesigning corporate infrastructure for maximum user accessibility and WCAG compliance.</p>
+            <div class="project-tags">
+              <span>UI</span><span>UX</span><span>WCAG</span>
+            </div>
+            <a href="#" class="view-project">Details <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-dashboard">
+      <div class="container reveal">
+        <div class="skills-inner">
+          <div class="skill-group">
+            <i class="fa-solid fa-layer-group"></i>
+            <h4>Core</h4>
+            <p>C++, Python, Dart, JS</p>
+          </div>
+          <div class="skill-group">
+            <i class="fa-solid fa-server"></i>
+            <h4>Backend</h4>
+            <p>Node.js, Firebase, Azure</p>
+          </div>
+          <div class="skill-group">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h4>Frontend</h4>
+            <p>HTML5, CSS3, EJS</p>
+          </div>
         </div>
       </div>
+    </section>
+  </main>
 
-    </div>
-  </div>
-  </section>
-
-  <section id="skills" class="skills-section">
-  <h2>Technical Skills</h2>
-
-  <div class="skills-grid">
-
-    <!-- Frontend -->
-    <div class="skill-card">
-      <img src="https://img.icons8.com/color/512/ejs.png" alt="Frontend">
-      <h3>Frontend Development</h3>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>EJS</li>
-        <li>JavaScript (ES6+)</li>
-        <li>Responsive Design</li>
-      </ul>
-    </div>
-
-    <!-- Backend -->
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Backend">
-      <h3>Backend & APIs</h3>
-      <ul>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>RESTful APIs</li>
-        <li>Authentication (JWT)</li>
-      </ul>
-    </div>
-
-    <!-- Database -->
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="Database">
-      <h3>Databases & Cloud</h3>
-      <ul>
-        <li>MongoDB</li>
-        <li>MySQL</li>
-        <li>Firebase</li>
-        <li>Cloud Deployment</li>
-      </ul>
-    </div>
-
-    <!-- Tools -->
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Tools">
-      <h3>Tools & DevOps</h3>
-      <ul>
-        <li>Git & GitHub</li>
-        <li>Docker (Basics)</li>
-        <li>Postman</li>
-        <li>VS Code</li>
-      </ul>
-    </div>
-
-  </div>
-  </section>
-
-  <section id="courses" class="courses-section">
-  <h2>Courses & Learning</h2>
-
-  <div class="courses-list">
-    <div class="course-item">CMPT 130: Introduction to Computer Programming I</div>
-    <div class="course-item">Certification Preparation – Financial Associate (Oracle netSuite)</div>
-    <div class="course-item">PHP Laravel: Build Travel Management System</div>
-    <div class="course-item">Build your Personal Portfolio Website</div>
-    <div class="course-item">AI in Agile Delivery</div>
-  </div>
-  </section>
-
-
-
-  <!-- ===== CONTACT SECTION ===== -->
-  <section id="contact" class="contact reveal">
-  <div class="contact-container">
-
-    <h2 class="section-title">Contact Me</h2>
-
-    <div class="contact-content">
-
-      <!-- Contact Info -->
-      <div class="contact-info">
-        <h3>Get in Touch</h3>
-        <p>
-          I’m open to opportunities, collaborations, and professional conversations.
-          You can reach me using the information below.
-        </p>
-
-        <ul>
-          <li>
-            <strong>Email:</strong>
-            <a href="mailto:abdullahelboraei@gmail.com">
-              abdullahelboraei@gmail.com
-            </a>
-          </li>
-
-          <li>
-            <strong>WhatsApp / Phone:</strong>
-            <a href="https://wa.me/17786971018" target="_blank">
-              +1 (778) 697-1018
-            </a>
-          </li>
-
-          <li>
-            <strong>Location:</strong>
-            Surrey, BC, Canada
-          </li>
-
-          <li>
-            <strong>LinkedIn:</strong>
-            <a href="https://www.linkedin.com/in/abdalla-mohamed-mohamed-elboraei-95bb1b369/" target="_blank">
-              linkedin.com/in/abdalla-mohamed-mohamed-elboraei-95bb1b369
-            </a>
-          </li>
-        </ul>
+  <!-- FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-box reveal">
+        <h2>Let's build the future.</h2>
+        
+        <div class="footer-socials">
+          <a href="https://github.com/abdullahmohammed1234" target="_blank" class="social-btn">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/abdalla-mohamed-mohamed-elboraei-95bb1b369/" target="_blank" class="social-btn">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://wa.me/17786971018" target="_blank" class="social-btn">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="mailto:abdullahelboraei@gmail.com" target="_blank" class="social-btn">
+            <i class="fas fa-envelope "></i> Email
+          </a>
+        </div>
       </div>
-
-      <!-- Contact Form -->
-      <form class="contact-form">
-        <h3>Send a Message</h3>
-
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-
-        <button type="submit" class="btn primary">Send Message</button>
-      </form>
-
+      <p class="copyright">© 2025 Abdalla Elboraei.</p>
     </div>
-  </div>
-  </section>
-
-
+  </footer>
 
   <script src="script.js"></script>
 </body>
