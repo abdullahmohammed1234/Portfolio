@@ -101,7 +101,8 @@ body {
 }
 
 /* Buttons */
-.home-buttons {
+.home-buttons,
+.about-buttons {
   display: flex;
   gap: 1rem;
 }
@@ -505,7 +506,8 @@ section {
     font-size: 1.3rem;
   }
 
-  .home-buttons {
+  .home-buttons,
+  .about-buttons {
     justify-content: center;
     flex-wrap: wrap;
   }
