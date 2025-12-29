@@ -43,3 +43,31 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+// --- Add this to your existing script.js ---
+
+const mobileToggle = document.getElementById('mobileToggle');
+const navLinks = document.getElementById('navLinks');
+const body = document.body;
+
+// Toggle menu on click
+mobileToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  body.classList.toggle('menu-open');
+  
+  // Toggle icon between bars and X
+  const icon = mobileToggle.querySelector('i');
+  icon.classList.toggle('fa-bars');
+  icon.classList.toggle('fa-xmark');
+});
+
+// Close menu when a link is clicked
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+    body.classList.remove('menu-open');
+    const icon = mobileToggle.querySelector('i');
+    icon.classList.add('fa-bars');
+    icon.classList.remove('fa-xmark');
+  });
+});

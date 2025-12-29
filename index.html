@@ -17,17 +17,28 @@
     <div class="aurora aurora-2"></div>
   </div>
 
+  <!-- Locate your <nav> section and update it to this: -->
   <nav class="floating-nav">
-    <div class="nav-inner">
-      <div class="nav-logo">AE</div>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#projects">Work</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#skills">Stack</a>
-      </div>
-      <a href="mailto:abdullahelboraei@gmail.com" class="nav-contact">Hire Me</a>
+  <div class="nav-inner">
+    <div class="nav-logo">Abdalla Elboraei</div>
+    
+    <!-- Added a wrapper for links to control them together -->
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Work</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#skills">Stack</a>
+      <!-- Moved Hire Me inside for mobile flow, or keep it outside if you want it always visible -->
+      <a href="mailto:abdullahelboraei@gmail.com" class="nav-contact mobile-only">Hire Me</a>
     </div>
+
+    <a href="mailto:abdullahelboraei@gmail.com" class="nav-contact desktop-only">Hire Me</a>
+
+    <!-- Hamburger Button -->
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Open Menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
   </nav>
 
   <main>
@@ -59,7 +70,8 @@
           <div class="about-right reveal">
             <span class="section-tag">About Me</span>
             <h2 class="about-heading">Blending technical rigor with <span>creative execution.</span></h2>
-            <p>I am a Software Systems student at SFU focused on building efficient, accessible systems.</p>
+            <p>I am a 1st Year Software Systems student at SFU focused on building efficient, accessible systems.</p>
+            <p>From hackathons like StormHacks to academic projects, I treat every line of code as an opportunity to optimize performance and improve the human experience</p>
             <div class="about-info-grid">
               <div class="info-item">
                 <i class="fa-solid fa-location-dot"></i>
