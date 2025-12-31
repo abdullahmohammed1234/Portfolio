@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abdalla Elboraei | Software Systems Student</title>
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;500;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;500;800&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <div class="aurora-container">
@@ -19,26 +23,27 @@
 
   <!-- Locate your <nav> section and update it to this: -->
   <nav class="floating-nav">
-  <div class="nav-inner">
-    <div class="nav-logo">Abdalla Elboraei</div>
-    
-    <!-- Added a wrapper for links to control them together -->
-    <div class="nav-links" id="navLinks">
-      <a href="#about">About</a>
-      <a href="#projects">Work</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#skills">Stack</a>
-      <!-- Moved Hire Me inside for mobile flow, or keep it outside if you want it always visible -->
-      <a href="mailto:abdullahelboraei@gmail.com" class="nav-contact mobile-only">Hire Me</a>
+    <div class="nav-inner">
+      <div class="nav-logo">Abdalla Elboraei</div>
+
+      <!-- Added a wrapper for links to control them together -->
+      <div class="nav-links" id="navLinks">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Stack</a>
+        <a href="work.html">Work</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="courses.html">Courses</a>
+        <a href="mailto:abdullahelboraei@gmail.com" class="nav-contact mobile-only">Hire Me</a>
+      </div>
+
+      <a href="mailto:abdullahelboraei@gmail.com" class="nav-contact desktop-only">Hire Me</a>
+
+      <!-- Hamburger Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
-
-    <a href="mailto:abdullahelboraei@gmail.com" class="nav-contact desktop-only">Hire Me</a>
-
-    <!-- Hamburger Button -->
-    <button class="mobile-toggle" id="mobileToggle" aria-label="Open Menu">
-      <i class="fa-solid fa-bars"></i>
-    </button>
-  </div>
   </nav>
 
   <main>
@@ -47,9 +52,10 @@
       <div class="container reveal">
         <div class="hero-tag">Available for 2026 Internships</div>
         <h1 class="hero-title">Engineering logic into <span class="gradient-text">Digital Experiences.</span></h1>
-        <p class="hero-description">Software Systems student at SFU. I specialize in building robust backends and pixel-perfect frontends.</p>
+        <p class="hero-description">Software Systems student at SFU. I specialize in building robust backends and
+          pixel-perfect frontends.</p>
         <div class="hero-btns">
-          <a href="#projects" class="btn-glow">Explore Work</a>
+          <a href="work.html" class="btn-glow">Explore Work</a>
           <a href="assets/Abdalla_Elboraei_Resume.pdf" target="_blank" class="btn-outline">
             Resume <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem; margin-left: 6px;"></i>
           </a>
@@ -71,15 +77,20 @@
             <span class="section-tag">About Me</span>
             <h2 class="about-heading">Blending technical rigor with <span>creative execution.</span></h2>
             <p>I am a 1st Year Software Systems student at SFU focused on building efficient, accessible systems.</p>
-            <p>From hackathons like StormHacks to academic projects, I treat every line of code as an opportunity to optimize performance and improve the human experience</p>
+            <p>From hackathons like StormHacks to academic projects, I treat every line of code as an opportunity to
+              optimize performance and improve the human experience</p>
             <div class="about-info-grid">
               <div class="info-item">
                 <i class="fa-solid fa-location-dot"></i>
-                <div><label>Location</label><p>Surrey, BC</p></div>
+                <div><label>Location</label>
+                  <p>Surrey, BC</p>
+                </div>
               </div>
               <div class="info-item">
                 <i class="fa-solid fa-graduation-cap"></i>
-                <div><label>Education</label><p>SFU Software Systems</p></div>
+                <div><label>Education</label>
+                  <p>SFU Software Systems</p>
+                </div>
               </div>
             </div>
           </div>
@@ -87,75 +98,25 @@
       </div>
     </section>
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="project-section">
-      <div class="container">
-        <h2 class="section-heading reveal">Selected Work</h2>
-        
-        <div class="project-card reveal">
-          <div class="project-image"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000" alt="Track2Give"></div>
-          <div class="project-info">
-            <span class="project-cat">Hackathon</span>
-            <h3>Track2Give</h3>
-            <p>Mission-critical food waste tracker connecting donors with organizations.</p>
-            <div class="project-tags"><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
-            <a href="https://track2give.tech" target="_blank" class="view-project">View Website <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
 
-        <div class="project-card reverse reveal">
-          <div class="project-image"><img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=1000" alt="WCDAT"></div>
-          <div class="project-info">
-            <span class="project-cat">UI / Accessibility</span>
-            <h3>WCDAT Core</h3>
-            <p>Standardizing UI patterns for corporate scalability and WCAG compliance.</p>
-            <div class="project-tags"><span>UI</span><span>UX</span><span>Accessibility</span></div>
-            <a href="https://wcdat.com/" target="_blank" class="view-project">View Website <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- CERTIFICATIONS SECTION -->
-    <section id="certifications" class="cert-section">
-      <div class="container">
-        <h2 class="section-heading reveal">Professional Credentials</h2>
-        <div class="cert-grid">
-          <div class="cert-card reveal">
-            <div class="cert-icon"><i class="fa-solid fa-helmet-safety"></i></div>
-            <div class="cert-info">
-              <span class="cert-date">Jul 2025</span>
-              <h3>WorkSafeBC Certificate</h3>
-              <p>WorkSafe BC</p>
-            </div>
-          </div>
-          <div class="cert-card reveal">
-            <div class="cert-icon"><i class="fa-brands fa-microsoft"></i></div>
-            <div class="cert-info">
-              <span class="cert-date">Jul 2025</span>
-              <h3>Azure Fundamentals</h3>
-              <p>Microsoft Certified (AZ-900)</p>
-            </div>
-          </div>
-          <div class="cert-card reveal">
-            <div class="cert-icon"><i class="fa-solid fa-universal-access"></i></div>
-            <div class="cert-info">
-              <span class="cert-date">Sept 2025</span>
-              <h3>AODA Accessibility</h3>
-              <p>OSG Regulatory Compliance</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- SKILLS SECTION -->
     <section id="skills" class="skills-dashboard">
       <div class="container reveal">
         <div class="skills-inner">
-          <div class="skill-group"><i class="fa-solid fa-layer-group"></i><h4>Core</h4><p>C++, Python, Dart, JS</p></div>
-          <div class="skill-group"><i class="fa-solid fa-server"></i><h4>Backend</h4><p>Node.js, Firebase, Azure</p></div>
-          <div class="skill-group"><i class="fa-solid fa-wand-magic-sparkles"></i><h4>Frontend</h4><p>HTML5, CSS3, EJS</p></div>
+          <div class="skill-group"><i class="fa-solid fa-layer-group"></i>
+            <h4>Core</h4>
+            <p>C++, Python, Dart, JS</p>
+          </div>
+          <div class="skill-group"><i class="fa-solid fa-server"></i>
+            <h4>Backend</h4>
+            <p>Node.js, Firebase, Azure</p>
+          </div>
+          <div class="skill-group"><i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h4>Frontend</h4>
+            <p>HTML5, CSS3, EJS</p>
+          </div>
         </div>
       </div>
     </section>
@@ -166,10 +127,13 @@
       <div class="footer-box reveal">
         <h2>Let's build the future.</h2>
         <div class="footer-socials">
-          <a href="https://github.com/abdullahmohammed1234" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://www.linkedin.com/in/abdalla-mohamed-mohamed-elboraei-95bb1b369/" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/abdullahmohammed1234" target="_blank" class="social-btn"><i
+              class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/abdalla-mohamed-mohamed-elboraei-95bb1b369/" target="_blank"
+            class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
           <a href="mailto:abdullahelboraei@gmail.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
-          <a href="https://wa.me/17786971018" target="_blank" class="social-btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="https://wa.me/17786971018" target="_blank" class="social-btn"><i class="fab fa-whatsapp"></i>
+            WhatsApp</a>
         </div>
       </div>
       <p class="copyright">© 2025 Abdalla Elboraei.</p>
@@ -178,4 +142,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>

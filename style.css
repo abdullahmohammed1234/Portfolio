@@ -37,14 +37,14 @@ h1, h2, h3, .nav-logo { font-family: 'Bricolage Grotesque', sans-serif; font-wei
 /* Floating Nav */
 .floating-nav { position: fixed; top: 1.5rem; left: 0; width: 100%; z-index: 1000; }
 .nav-inner {
-  max-width: 600px; margin: 0 auto;
+  max-width: 750px; margin: 0 auto;
   background: rgba(10, 12, 16, 0.7); backdrop-filter: blur(15px);
   border: 1px solid var(--border); border-radius: 100px;
   padding: 0.5rem 1.5rem; display: flex; justify-content: space-between; align-items: center;
 }
 .nav-logo { color: var(--text-primary); font-size: 1.1rem; }
-.nav-links { display: flex; gap: 1.5rem; }
-.nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.85rem; transition: 0.3s; }
+.nav-links { display: flex; justify-content: center; gap: 1rem; flex: 1; }
+.nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.9rem; transition: 0.3s; }
 .nav-links a:hover { color: white; }
 .nav-contact { background: white; color: black; padding: 0.4rem 1rem; border-radius: 50px; font-weight: 600; text-decoration: none; font-size: 0.85rem; }
 
