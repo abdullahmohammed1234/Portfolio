@@ -278,6 +278,19 @@ h1, h2, h3, .nav-logo { font-family: 'Bricolage Grotesque', sans-serif; font-wei
     z-index: 1001;
   }
 
+  .cert-card {
+    padding: 1.5rem;
+    min-height: 200px;
+  }
+
+  .cert-info h3 {
+    font-size: 1rem;
+  }
+
+  .cert-info p {
+    font-size: 0.85rem;
+  }
+
   .nav-links {
     position: fixed;
     top: 0;
