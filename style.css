@@ -168,7 +168,6 @@ h1, h2, h3, .nav-logo { font-family: 'Bricolage Grotesque', sans-serif; font-wei
   gap: 1.5rem;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
   position: relative;
-  overflow: hidden;
   min-height: 180px;
 }
 
