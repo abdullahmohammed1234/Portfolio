@@ -300,7 +300,7 @@ endobj
 (react-pdf)
 endobj
 48 0 obj
-(D:20260216051046Z)
+(D:20260217033412Z)
 endobj
 49 0 obj
 (Abdalla_Elboraei_Resume - Resume)
@@ -316,7 +316,7 @@ endobj
 51 0 obj
 <<
 /Type /FontDescriptor
-/FontName /JOVUVW+LiberationSerif-Bold
+/FontName /UBDSKW+LiberationSerif-Bold
 /Flags 6
 /FontBBox [-182.128906 -303.222656 1084.960938 1007.8125]
 /ItalicAngle 0
@@ -332,7 +332,7 @@ endobj
 <<
 /Type /Font
 /Subtype /CIDFontType2
-/BaseFont /JOVUVW+LiberationSerif-Bold
+/BaseFont /UBDSKW+LiberationSerif-Bold
 /CIDSystemInfo <<
 /Registry (Adobe)
 /Ordering (Identity)
@@ -347,7 +347,7 @@ endobj
 <<
 /Type /Font
 /Subtype /Type0
-/BaseFont /JOVUVW+LiberationSerif-Bold
+/BaseFont /UBDSKW+LiberationSerif-Bold
 /Encoding /Identity-H
 /DescendantFonts [52 0 R]
 /ToUnicode 53 0 R
@@ -356,7 +356,7 @@ endobj
 55 0 obj
 <<
 /Type /FontDescriptor
-/FontName /VUOBPN+LiberationSerif-Regular
+/FontName /UIRRAM+LiberationSerif-Regular
 /Flags 6
 /FontBBox [-176.757812 -303.222656 1006.835938 981.445313]
 /ItalicAngle 0
@@ -372,7 +372,7 @@ endobj
 <<
 /Type /Font
 /Subtype /CIDFontType2
-/BaseFont /VUOBPN+LiberationSerif-Regular
+/BaseFont /UIRRAM+LiberationSerif-Regular
 /CIDSystemInfo <<
 /Registry (Adobe)
 /Ordering (Identity)
@@ -387,7 +387,7 @@ endobj
 <<
 /Type /Font
 /Subtype /Type0
-/BaseFont /VUOBPN+LiberationSerif-Regular
+/BaseFont /UIRRAM+LiberationSerif-Regular
 /Encoding /Identity-H
 /DescendantFonts [56 0 R]
 /ToUnicode 57 0 R
@@ -396,7 +396,7 @@ endobj
 59 0 obj
 <<
 /Type /FontDescriptor
-/FontName /UHFFHX+LiberationSerif-Italic
+/FontName /FAZSTY+LiberationSerif-Italic
 /Flags 70
 /FontBBox [-176.757812 -303.222656 1087.890625 980.957031]
 /ItalicAngle -16.333008
@@ -412,7 +412,7 @@ endobj
 <<
 /Type /Font
 /Subtype /CIDFontType2
-/BaseFont /UHFFHX+LiberationSerif-Italic
+/BaseFont /FAZSTY+LiberationSerif-Italic
 /CIDSystemInfo <<
 /Registry (Adobe)
 /Ordering (Identity)
@@ -427,7 +427,7 @@ endobj
 <<
 /Type /Font
 /Subtype /Type0
-/BaseFont /UHFFHX+LiberationSerif-Italic
+/BaseFont /FAZSTY+LiberationSerif-Italic
 /Encoding /Identity-H
 /DescendantFonts [60 0 R]
 /ToUnicode 61 0 R
@@ -847,7 +847,7 @@ trailer
 /Size 62
 /Root 3 0 R
 /Info 45 0 R
-/ID [<701b680cdac5f15e7fa8e384ca423334> <701b680cdac5f15e7fa8e384ca423334>]
+/ID [<a82fcbb40f5849803a9ea6bc5c43c8ad> <a82fcbb40f5849803a9ea6bc5c43c8ad>]
 >>
 startxref
 69533
