@@ -87,8 +87,8 @@ h1, h2, h3, .nav-logo { font-family: 'Bricolage Grotesque', sans-serif; font-wei
 .project-cat { color: var(--primary); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; }
 .project-info h3 { font-size: 2.2rem; margin: 0.5rem 0 1rem; }
 .project-info p { color: var(--text-secondary); margin-bottom: 2rem; }
-.project-tags { margin-top: 1rem; }
-.project-tags span { background: var(--card-bg); border: 1px solid var(--border); padding: 0.4rem 1rem; border-radius: 6px; font-size: 0.8rem; margin-right: 0.5rem; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.project-tags span { display: inline-block; background: var(--card-bg); border: 1px solid var(--border); padding: 0.4rem 1rem; border-radius: 6px; font-size: 0.8rem; }
 
 .icon-large {
     display: flex;

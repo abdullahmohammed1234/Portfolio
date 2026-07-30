@@ -48,54 +48,111 @@
     </nav>
 
     <main>
-        <!-- PROJECTS SECTION -->
-        <section id="projects" class="project-section">
-            <div class="container">
-                <h2 class="section-heading reveal">Selected Work</h2>
+        <!-- LEADERSHIP & EXPERIENCE SECTION -->
+        <section class="experience-section">
+            <div class="container reveal">
+                <h2 class="section-heading">Leadership & Campus Experience</h2>
+                <div class="exp-grid">
+                    <div class="exp-card">
+                        <span class="exp-role">IT Coordinator</span>
+                        <h3 class="exp-company">SFU Muslim Students Association</h3>
+                        <p class="cert-date" style="margin-bottom: 1rem;">Feb. 2026 – Present | Burnaby, BC</p>
+                        <ul class="exp-desc">
+                            <li>Lead the architecture and development of the SFU MSA Digital Platform, centralizing administrative workflows through a scalable full-stack solution.</li>
+                            <li>Design and implement secure authentication, role-based access control (RBAC), executive management tools, newsletters, announcements, and Dawah Academy modules.</li>
+                            <li>Coordinate technical requirements with executive stakeholders, translating organizational needs into maintainable software solutions.</li>
+                            <li>Manage deployment, documentation, and platform maintenance while establishing scalable development workflows for future contributors.</li>
+                        </ul>
+                    </div>
+                    <div class="exp-card">
+                        <span class="exp-role">Lower Division Representative</span>
+                        <h3 class="exp-company">SFU Software Systems Student Society</h3>
+                        <p class="cert-date" style="margin-bottom: 1rem;">May 2026 – Present | Surrey, BC</p>
+                        <ul class="exp-desc">
+                            <li>Represent undergraduate Software Systems students within the executive council and advocate for student interests.</li>
+                            <li>Collaborate with executive members to organize events, improve student engagement, and support society initiatives.</li>
+                            <li>Contribute to operational planning and cross-functional projects that strengthen the student community.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="project-section" style="padding-top: 0;">
+            <div class="container">
+                <h2 class="section-heading reveal">Selected Projects</h2>
+
+                <!-- 1. SFU MSA Digital Platform -->
                 <div class="project-card reveal">
                     <div class="project-image"><img
                             src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000"
+                            alt="SFU MSA Digital Platform"></div>
+                    <div class="project-info">
+                        <span class="project-cat">Full-Stack Platform / Production</span>
+                        <h3>SFU MSA Digital Platform</h3>
+                        <p>Architected and developed a production full-stack digital platform that centralized SFU MSA operations, replacing fragmented administrative workflows with an integrated, scalable solution. Features a public website, CMS, LMS, and Event Management System with QR check-in.</p>
+                        <div class="project-tags">
+                            <span>Laravel</span><span>PHP</span><span>MySQL</span><span>Vue.js</span><span>TypeScript</span><span>REST APIs</span><span>RBAC</span><span>JWT</span>
+                        </div>
+                        <a href="https://www.sfumsa.ca/" target="_blank" class="view-project">View Website<i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 2. Track2Give -->
+                <div class="project-card reverse reveal">
+                    <div class="project-image"><img
+                            src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=1000"
                             alt="Track2Give"></div>
                     <div class="project-info">
-                        <span class="project-cat">Hackathon / Sustainability</span>
+                        <span class="project-cat">Mobile App / Sustainability</span>
                         <h3>Track2Give</h3>
-                        <p>Mission-critical food waste tracker connecting donors with organizations.</p>
-                        <div class="project-tags"><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+                        <p>Co-developed a full-stack food donation platform that connects donors, volunteers, and recipients to reduce food waste. Earned 1st Place Best Beginner, 1st Place Most Likely to Become a Startup, and 1st Place EnactusSFU Challenge at StormHacks 2025.</p>
+                        <div class="project-tags">
+                            <span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Flutter</span><span>JWT</span>
+                        </div>
                         <a href="https://track2give.tech" target="_blank" class="view-project">View Website<i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
-                <div class="project-card reverse reveal">
+                <!-- 3. EventForge -->
+                <div class="project-card reveal">
                     <div class="project-image"><img
-                            src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=1000"
-                            alt="WCDAT"></div>
+                            src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?auto=format&fit=crop&q=80&w=1000"
+                            alt="EventForge"></div>
                     <div class="project-info">
-                        <span class="project-cat">UI / Accessibility</span>
-                        <h3>WCDAT Core</h3>
-                        <p>Standardizing UI patterns for corporate scalability and WCAG compliance.</p>
-                        <div class="project-tags"><span>UI</span><span>UX</span><span>Accessibility</span></div>
-                        <a href="https://wcdat.com/" target="_blank" class="view-project">View Website<i
+                        <span class="project-cat">Mobile App / Social</span>
+                        <h3>EventForge</h3>
+                        <p>Developed a full-stack event discovery platform that enables users to create, browse, and manage local events through responsive web and mobile experiences. Built a cross-platform Flutter mobile application integrated with secure RESTful APIs.</p>
+                        <div class="project-tags">
+                            <span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Flutter</span><span>JWT</span>
+                        </div>
+                        <a href="https://github.com/abdullahmohammed1234/EventForge" target="_blank" class="view-project">View Code<i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
-                <div class="project-card reveal">
+                <!-- 4. Qubiq -->
+                <div class="project-card reverse reveal">
                     <div class="project-image"><img
-                            src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=1000"
-                            alt="BudgetBuddy"></div>
+                            src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1000"
+                            alt="Qubiq"></div>
                     <div class="project-info">
-                        <span class="project-cat">Hackathon / Finance</span>
-                        <h3>BudgetBuddy</h3>
-                        <p>A personalized budget buddy for university students</p>
-                        <div class="project-tags"><span>Express.js</span><span>Node.js</span><span>Flutter</span></div>
-                        <a href="https://github.com/abdullahmohammed1234/BudgetBuddy" target="_blank"
-                            class="view-project">View Code<i class="fa-solid fa-arrow-right"></i></a>
+                        <span class="project-cat">Web Platform / EdTech</span>
+                        <h3>Qubiq</h3>
+                        <p>Developed an interactive educational platform introducing quantum computing concepts through engaging web experiences. Built responsive, reusable, component-driven interfaces focusing on maintainability and WCAG accessibility.</p>
+                        <div class="project-tags">
+                            <span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span>
+                        </div>
+                        <a href="https://github.com/abdullahmohammed1234/Qubiq" target="_blank" class="view-project">View Code<i
+                                class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
-                <div class="project-card reverse reveal">
+                <!-- Resume Download Block -->
+                <div class="project-card reveal">
                     <div class="project-image"><img
                             src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1000"
                             alt="Portfolio"></div>
@@ -104,94 +161,11 @@
                         <h3>Portfolio Website</h3>
                         <p>A responsive personal portfolio website showcasing my skills, projects, and experience.</p>
                         <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-                        <a href="assets/Abdalla_Elboraei_Resume.pdf" target="_blank" class="view-project">View Resume<i
+                        <a href="assets/Abdalla_resume.pdf" target="_blank" class="view-project">View Resume<i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
-                <div class="project-card reveal">
-                    <div class="project-image"><img
-                            src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?auto=format&fit=crop&q=80&w=1000"
-                            alt="CodeBattles"></div>
-                    <div class="project-info">
-                        <span class="project-cat">Hackathon / Games / Coding</span>
-                        <h3>CodeBattles</h3>
-                        <p>A competitive coding meets real-time strategy</p>
-                        <div class="project-tags"><span>React</span><span>Socket.io</span><span>python</span></div>
-                        <a href="https://github.com/moromorad/CodeBattles-Final-Clean" target="_blank"
-                            class="view-project">View Code<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="project-card reverse reveal">
-                    <div class="project-image"><img
-                            src="https://images.unsplash.com/photo-1618336753974-aae8e04506aa?auto=format&fit=crop&q=80&w=1000"
-                            alt="Rewind"></div>
-                    <div class="project-info">
-                        <span class="project-cat">Hackathon / Past / Nostalgia</span>
-                        <h3>Rewind</h3>
-                        <p>A nostalgic web platform that allows users to explore, relive, and archive internet culture from the 2010s onward.</p>
-                        <div class="project-tags"><span>Next.js</span><span>TypeScript</span><span>Firebase</span></div>
-                            <a href="https://github.com/abdullahmohammed1234/Rewind" target="_blank"
-                                class="view-project">View Code<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="project-card reveal">
-                    <div class="project-image"><img
-                            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1000"
-                            alt="Exchangify"></div>
-                    <div class="project-info">
-                        <span class="project-cat">Hackathon / Sustainability</span>
-                        <h3>Exchangify</h3>
-                        <p>A UBC-only marketplace where students can buy, sell, and trade dorm items and student essentials during move-in and move-out seasons.</p>
-                        <div class="project-tags"><span>Next.js</span><span>TypeScript</span><span>MongoDB</span></div>
-                            <a href="https://github.com/abdullahmohammed1234/Exchangify" target="_blank"
-                                class="view-project">View Code<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="project-card reverse reveal">
-                    <div class="project-image"><img
-                            src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000"
-                            alt="SSO"></div>
-                    <div class="project-info">
-                        <span class="project-cat">Security / Identity</span>
-                        <h3>SSO</h3>
-                        <p>Developed a Single Sign-On System that helps in connecting multiple modules/application to a single authorization system.</p>
-                        <div class="project-tags"><span>PHP</span><span>Laravel</span><span>MySQL</span></div>
-                            <a href="https://github.com/abdullahmohammed1234/SSO" target="_blank"
-                                class="view-project">View Code<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="project-card reveal">
-                    <div class="project-image"><img
-                            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000"
-                            alt="FraudSense AI"></div>
-                    <div class="project-info">
-                        <span class="project-cat">Hackathon / FinTech</span>
-                        <h3>FraudSense AI</h3>
-                        <p>An enterprise-grade ML risk platform that detects fraud in real time, automates decisions, monitors model health, and ensures audit-ready governance for modern fintech systems.</p>
-                        <div class="project-tags"><span>Python Flask</span><span>Scikitlearn</span><span>XGBoost</span></div>
-                            <a href="https://github.com/abdullahmohammed1234/FraudSense-AI" target="_blank"
-                                class="view-project">View Code<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="project-card reverse reveal">
-                    <div class="project-image"><img
-                            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000"
-                            alt="MSA"></div>
-                    <div class="project-info">
-                        <span class="project-cat">Design / Revive</span>
-                        <h3>MSA Website</h3>
-                        <p>I am collaborating with The IT Team in SFU MSA to revive the website with a fresh new design</p>
-                        <div class="project-tags"><span>UI</span><span>UX</span><span>Webflow</span></div>
-                            <a href="" target="_blank"
-                                class="view-project">View Website<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
             </div>
         </section>
     </main>
